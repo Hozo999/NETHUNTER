@@ -68,9 +68,10 @@ function set_strings() {
     ####
     if [[ ${SYS_ARCH} == "arm64" ]];
     then
-        echo "[1] NetHunter ARM64 (full)"
-        echo "[2] NetHunter ARM64 (minimal)"
-        echo "[3] NetHunter ARM64 (nano)"
+        echo "BAHAN BAHAN UNTUK MENGINSTALL NYA GUSY 😈"
+        echo "[1].INSTALL NETHUNTER 20GB😈"
+        echo "[2] INSTALL NETHUNTER MINIMAL 😈"
+        echo "[3] INSTALL NETHUNTER NO DESKTOP😈"
         read -p "Enter the image you want to install: " wimg
         if (( $wimg == "1" ));
         then
@@ -86,9 +87,10 @@ function set_strings() {
         fi
     elif [[ ${SYS_ARCH} == "armhf" ]];
     then
-        echo "[1] NetHunter ARMhf (full)"
-        echo "[2] NetHunter ARMhf (minimal)"
-        echo "[3] NetHunter ARMhf (nano)"
+        echo "BAHAN BAHAN UNTUK MENGINSTALL NYA GUSY 😈"
+        echo "[1].INSTALL NETHUNTER 20GB😈"
+        echo "[2] INSTALL NETHUNTER MINIMAL 😈"
+        echo "[3] INSTALL NETHUNTER NO DESKTOP😈"
         read -p "Enter the image you want to install: " wimg
         if (( $wimg == "1" ));
         then
@@ -406,7 +408,7 @@ function print_banner() {
                            ██████████
                            ██████████
                             ████████   
-            INSTALL KALI NETHUNTER WAJIB MENGGUNAKAN DATA WIFI      
+      INSTALL KALI NETHUNTER WAJIB MENGGUNAKAN DATA WIFI      
     
     \n"
    
